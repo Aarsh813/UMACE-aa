@@ -29,9 +29,9 @@ class LoginScreen extends ConsumerWidget {
                     decoration: const BoxDecoration(
                       gradient: LinearGradient(
                         colors: [
-                          Colors.pink,
-                          Colors.orange,
-                          Colors.yellow,
+                          Colors.indigo,
+                          Colors.cyanAccent,
+                          Colors.tealAccent,
                         ],
                         begin: Alignment.topLeft,
                         end: Alignment.bottomRight,
@@ -41,13 +41,13 @@ class LoginScreen extends ConsumerWidget {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
-                      const SizedBox(height: 40),
+                      const SizedBox(height: 20),
                       SizedBox(
-                        height: 100,
+                        height: 50,
                         child: DefaultTextStyle(
                           style: const TextStyle(
                             fontFamily: 'FutureLight',
-                            fontSize: 27,
+                            fontSize: 22,
                             fontWeight: FontWeight.bold,
                             color: Colors.white,
                             shadows: [
@@ -58,29 +58,26 @@ class LoginScreen extends ConsumerWidget {
                               ),
                             ],
                           ),
-                          child: AnimatedTextKit(
-                            repeatForever: true,
-                            animatedTexts: [
-                              FlickerAnimatedText('Unleash your power'),
-                              FlickerAnimatedText(
-                                  'Connect with your community'),
-                            ],
-                          ),
+                            child: AnimatedTextKit(
+                              repeatForever: true,
+                              animatedTexts: [
+                                TyperAnimatedText('Unified Market Connecting Enterprises'),
+                              ],
+                            ),
                         ),
                       ),
-                      const SizedBox(height: 20),
                       Image.asset(
                         'assets/images/logo.png',
                         width: 200,
-                        height: 100,
+                        height: 200,
                        
                       ),
                       const SizedBox(
                         width: 300,
                         child: Text(
-                          'Femunity',
+                          'UMACE',
                           style: TextStyle(
-                            fontFamily: 'AlBrush',
+                            fontFamily:'',
                             fontSize: 70,
                             fontWeight: FontWeight.bold,
                             color: Colors.white,

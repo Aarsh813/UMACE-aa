@@ -11,7 +11,7 @@
         </intent>
     </queries>
    <application
-        android:label="femunity"
+        android:label="UMACE"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
